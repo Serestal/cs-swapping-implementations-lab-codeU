@@ -1,13 +1,13 @@
 package com.flatironschool.javacs;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ListClientExample {
-	private List list;
+	private ArrayList list;
 	
 	public ListClientExample() {
-		list = new LinkedList();
+		list = new ArrayList();
 	}
 
 	public List getList() {
@@ -18,5 +18,6 @@ public class ListClientExample {
 		ListClientExample lce = new ListClientExample();
 		List list = lce.getList();
 		System.out.println(list);
+		System.out.println("hi");
 	}
 }
